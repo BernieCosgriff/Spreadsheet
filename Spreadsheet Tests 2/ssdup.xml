@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<spreadsheet IsValid="^[A-Z]+[1-9][0-9]*$">
+  <cell name="A1" contents="=B1" />
+  <cell name="B1" contents="10" />
+  <cell name="B1" contents="=A3" />
+  <cell name="A2" contents="hello" />
+</spreadsheet>

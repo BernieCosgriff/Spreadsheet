@@ -1,0 +1,5 @@
+﻿I failed one test because I did not reset the variable that told whether or not the spreadsheet had changed after saving the spreadsheet.
+I failed one or two more tests because my lookup function returned the cells contents rather than the cells value.
+The change I am most concerned about is that when I evaluated the formula to reevaluate all of the cells that depended on one that
+was changed I forgot to store that value back in the cell thus the cell was never updated. I did not find this mistake because I did not
+test changing cell containing a formula extensively enough.
